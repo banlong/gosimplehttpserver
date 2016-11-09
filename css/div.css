@@ -1,0 +1,28 @@
+div.bar {
+    display: inline-block;
+    width: 20px;                /* bar width */
+    height: 75px;               /* We'll override height later */
+    background-color: teal;
+    margin-right: 2px;          /*seperate bar by adding the right margin*/
+}
+
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: black;
+    stroke-width: 1;
+    shape-rendering: crispEdges;
+}
+.axis text {
+    font-family: sans-serif;
+    font-size: 11px;
+}
+
+.grid .tick {
+    stroke: lightgrey;
+    opacity: 0.7;
+}
+.grid path {
+    stroke-width: 0;
+}
